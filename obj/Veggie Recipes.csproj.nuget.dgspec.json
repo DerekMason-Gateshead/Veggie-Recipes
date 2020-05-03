@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\derek.mason\\source\\repos\\Veggie Recipes\\Veggie Recipes.csproj": {}
+    "C:\\Users\\derek.mason\\source\\repos\\Veggie-Recipes\\Veggie Recipes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\derek.mason\\source\\repos\\Veggie Recipes\\Veggie Recipes.csproj": {
+    "C:\\Users\\derek.mason\\source\\repos\\Veggie-Recipes\\Veggie Recipes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\derek.mason\\source\\repos\\Veggie Recipes\\Veggie Recipes.csproj",
+        "projectUniqueName": "C:\\Users\\derek.mason\\source\\repos\\Veggie-Recipes\\Veggie Recipes.csproj",
         "projectName": "Veggie Recipes",
-        "projectPath": "C:\\Users\\derek.mason\\source\\repos\\Veggie Recipes\\Veggie Recipes.csproj",
+        "projectPath": "C:\\Users\\derek.mason\\source\\repos\\Veggie-Recipes\\Veggie Recipes.csproj",
         "packagesPath": "C:\\Users\\derek.mason\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\derek.mason\\source\\repos\\Veggie Recipes\\obj\\",
+        "outputPath": "C:\\Users\\derek.mason\\source\\repos\\Veggie-Recipes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\derek.mason\\AppData\\Roaming\\NuGet\\NuGet.Config",

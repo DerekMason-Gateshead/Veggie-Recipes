@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u/8pfLBbKu75+moeOHhxnjkD/UCrpXqvi/u14e/cB4jj82nCVgP1z4Ui7E1EQCOFsk+6leLnj5CZEoWOUBcpyQ==",
+  "dgSpecHash": "pQLTXKSemO2o9StVNjkTn6x1vTeG11EPN4sGn5+0e/hQmGKa3rF1SRu9+PoadFrnR4WS8cfrq90AMUv4Vxr6cg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\derek.mason\\source\\repos\\Veggie Recipes\\Veggie Recipes.csproj",
+  "projectFilePath": "C:\\Users\\derek.mason\\source\\repos\\Veggie-Recipes\\Veggie Recipes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\derek.mason\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\derek.mason\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
