@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "ChangeQuery";
+}
+
+<h1>Change your recipe catagory field</h1>
+
+<form asp-action="ChangeQuery">
+    <label for="query">Consider values like pasta, salad, pizza, soup:</label><br>
+
+    <@Html.Raw(@ViewData["Input"])><br>
+
+
+    <input type="submit" value="Save" class="btn btn-primary" />
+
+</form>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

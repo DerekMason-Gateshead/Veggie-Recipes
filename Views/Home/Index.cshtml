@@ -1,0 +1,108 @@
+﻿@model List<string>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome to veggie recipe search</h1>
+        <p>Special thanks to recipe puppy <a href="http://www.recipepuppy.com">www.recipepuppy.com</a>.</p>
+        <p>Select a query for recipe type and add your own ingredients</p>
+    </div>
+
+
+<div class="form-group">
+    <a href="Home/ShowRecipes">
+        <input type="submit" value="Get Recipes (from catagory and ingredients)" class="btn btn-primary">
+    </a>
+</div>
+
+
+
+<div class="form-group">
+    <a href="Home/ChangeQuery">
+        <input type="submit" value="Change Recipe Catagory" class="btn btn-primary">
+    </a>
+</div>
+
+<table class="table">
+    @{
+        
+
+        <thead>
+            <tr>
+                <th>
+                    Recipe Catagory (consider values like soup, salad, pasta etc) or leave blank
+                </th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    @ViewData["query"]
+                </td>
+
+                <td>
+                    <a asp-action="ChangeQuery" asp-route-id=Home/ChangeQuery></a>
+                </td>
+            </tr>
+
+        </tbody>
+
+    }
+</table>
+<table class="table">
+    @{
+        var counter = 0;
+
+        <thead>
+            <tr>
+                <th>
+                    Ingredients
+                </th>
+
+            </tr>
+        </thead>
+
+        foreach (var item in Model)
+        {
+            <tbody>
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item)
+                    </td>
+
+                    <td>
+                        <a asp-action="Edit" asp-route-id=@(counter)>Edit</a> |
+                        <a asp-action="Remove" asp-route-id=@(counter++)>Remove</a>
+                    </td>
+                </tr>
+
+            </tbody>
+        }
+
+        if (@counter == 0)
+            {
+                <tbody>
+                    <tr>
+                        <td>
+                            No ingredients consider adding ingredients (such as tomato, lettuce etc)
+                        </td>
+
+                    </tr>
+
+                </tbody>
+            }
+    }
+
+
+    <div class="form-group">
+        <a href="Home/Addingredient">
+            <input type="submit" value="Add ingredient" class="btn btn-primary">
+        </a>
+    </div>
+
+</table>
+

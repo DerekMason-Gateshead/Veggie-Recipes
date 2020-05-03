@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit Ingredient</h1>
+
+<form asp-action="Edit">
+    <label for="ingredient">Ingredient:</label><br>
+
+
+
+    <input type="text" id="ingredient" name="ingredient" value=@ViewData["Message"] class="form-control"><br>
+
+
+    <input type="submit" value="Save" class="btn btn-primary" />
+
+</form>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
